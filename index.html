@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Jhon Lloyd Paredes</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="section">
+    <div  id="welcomediv" class="container">
+      <h2>Welcome!</h2>
+      <p>I'm a Web Developer passionate about building user-friendly web applications.</p>
+    </div>
+  </section>
+  
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, I'm John Lloyd Paredes — a developer with a passion for front-end and back-end web development. I enjoy solving problems and creating smooth user experiences.</p>
+
+      <button class="bottonresumeshow" onclick="toggleIframeBox()">Show More</button>
+
+      <div id="iframeBox">
+        <iframe class="frame" src="https://drive.google.com/file/d/1_4MAa5XjbM6ypt7y0XQ7Z1gRWaf1B_MR/preview" width="640" height="480" allow="autoplay"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Calendar Website</h3>
+        <p>A calendar with only css and html recorded in it</p>
+      </div>
+      <div class="project">
+        <h3>Ticketing System(Low Code)</h3>
+        <p>A project that happen during training in Alliance for Low Code</p>
+      </div>
+      <div class="project">
+        <h3>Ticketingc System(Java)</h3>
+        <p>A calendar with only Java as it hard code</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Carleone's Hairstyle Barbershop</strong> - staff</li>
+        <li><strong>El Bravo Meatshop</strong> - Staff</li>
+        <li><strong>Assistant teacher in Talamban National Highschool</strong> - Assistant</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+        <p id="formResponse"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Jhon Lloyd Paredes</p>
+    </div>
+  </footer>
+
+  <script src="function.js"></script>
+</body>
+</html>
