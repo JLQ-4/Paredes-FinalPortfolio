@@ -5,7 +5,7 @@ Welcome to my portfolio repository! This project showcases my journey as a web d
 ## 🌐 Live Demo
 
 You can view my live portfolio here:  
-🔗
+🔗https://jlq-4.github.io/Paredes-FinalPortfolio/
 
 ## 🧰 Interactive Elements
 
